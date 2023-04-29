@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300&display=swap");
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+nav li {
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  margin: auto 10px;
+  color: bisque;
+  cursor: pointer;
+}
+nav li:hover {
+  border-bottom: 2px red solid;
+}
+.nav-sec {
+  background-color: black;
+  height: 45px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+nav img {
+  padding: 4px;
+  width: 45px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+nav .nav-content {
+  display: flex;
+
+  justify-content: space-between;
+}
+nav i {
+  display: inline-block;
+  color: red;
+  font-size: large;
+  margin-top: 19px;
+}
+.hero .container {
+  background-image: url(resources/banner1.jpg);
+  height: 475px;
+  max-width: 100%;
+}
+.hero-text {
+  width: 30%;
+  margin: 120px 0px;
+  margin-left: 300px;
+  color: azure;
+
+  display: inline-block;
+}
+.hero-text h1 {
+  margin: 0px;
+  font-size: 50px;
+}
+.banner1 {
+  text-align: left;
+  margin-left: 230px;
+}
+.banner1-cont {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.cards {
+  display: flex;
+  margin: 0px 200px;
+  width: fit-content;
+}
+.card-ele {
+  width: 25%;
+  margin: 10px 40px;
+}
+.card-ele p {
+  text-align: justify;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+
+.banner2 {
+  background-image: url(resources/banner1.jpg);
+  height: 400px;
+}
+
+.banner2 > h1 {
+  padding-top: 60px;
+  margin-left: 234px;
+}
+.banner2 > p {
+  width: 40%;
+  margin-left: 234px;
+  text-align: justify;
+}
+
+.logoCm img {
+  display: inline-block;
+
+  width: 80px;
+  margin: 10px 25px;
+}
+.banner2 {
+  color: aquamarine;
+}
+.logoCm {
+  display: flex;
+  margin-left: 234px;
+}
+.img-area {
+  margin: 10px;
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.img-area img {
+  width: 80%;
+  height: 300px;
+}
+.img-area p {
+  font-size: 10px;
+  margin-top: -13px;
+}
+.bg-blue {
+  text-align: center;
+  height: 90px;
+  background-color: rgb(85, 85, 202);
+}
+.bg-blue h2 {
+  display: inline-block;
+}
+.bg-blue button {
+  background-color: green;
+  border-radius: 4px;
+}
+
+footer img {
+  padding: 4px;
+  width: 45px;
+}
+footer {
+  text-align: center;
+  background-color: black;
+}
+footer p {
+  color: aliceblue;
+  margin-bottom: -10px;
+}
